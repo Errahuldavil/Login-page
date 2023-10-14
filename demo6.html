@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            height: 500px;
+            margin: auto;
+            /* background: linear-gradient(purple,rgb(235, 60, 125)); */
+            background-color: rgb(229, 229, 229);
+            width: 800px;
+            border: 1px solid black;
+        }
+        .a{
+            margin-left: 30%;
+            margin-top: 5%;
+            height: 80%;
+            border-radius: 10px;
+            width: 40%;
+            background-color: white;
+            border: 1px solid black;
+        }
+        .a1{
+            height: 20%;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            width: 100%;
+            background: linear-gradient(40deg,rgb(0, 0, 192),rgb(242, 21, 209));
+            
+        }
+        .a2{
+            height: 80%;
+            width: 100%;
+
+        }
+        .txt{
+            margin-top: 5%;
+            margin-left: 10%;
+            width: 80%;
+            height: 25px;
+            border: 1px solid rgb(194, 194, 194);
+            
+            border-radius: 5px;
+            /* box-shadow: inset 0px 0px 2px 0px; */
+        }
+        p{
+            margin-left: 10%;
+            font-size: 12px;
+            color: rgb(232, 108, 129);
+            font-family: cursive;
+        }
+        b{
+            /* margin-top: 5%; */
+            margin-left: 20%;
+           
+
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="outer">
+        <div class="a">
+            <div class="a1">
+            <b style="font-size: 25px;color: white;padding: 25px;">Login Form</b>
+        </div>
+        <div class="a2">
+            <input style="padding-left: 10px;" placeholder="Email Adress" class="txt" type="text">
+            
+            <input style="padding-left: 10px;" placeholder="password" class="txt" type="text">
+            <p>Forgot password</p>
+            <input style="height: 35px; color: white; background: linear-gradient(210deg,rgb(0, 0, 192),rgb(237, 133, 245),rgb(242, 21, 209));" value="Login" class="txt" type="submit"><br>
+            <br>
+            <b>Not a member?</b>
+            <a style="text-decoration: none;color: rgb(230, 9, 153);" href="#">Signup now</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
